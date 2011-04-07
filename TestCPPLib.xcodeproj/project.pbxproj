@@ -15,6 +15,12 @@
 		AA961AF4134D82DB00BC562D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA961AF2134D82DB00BC562D /* InfoPlist.strings */; };
 		AA961AF7134D82DC00BC562D /* TestCPPLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AA961AF6134D82DC00BC562D /* TestCPPLibTests.h */; };
 		AA961AF9134D82DC00BC562D /* TestCPPLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA961AF8134D82DC00BC562D /* TestCPPLibTests.m */; };
+		AA961B03134D82FC00BC562D /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = AA961B02134D82FC00BC562D /* Person.h */; };
+		AA961B05134D830900BC562D /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA961B04134D830900BC562D /* Person.cpp */; };
+		AA961B07134D86A400BC562D /* MyException.h in Headers */ = {isa = PBXBuildFile; fileRef = AA961B06134D86A400BC562D /* MyException.h */; };
+		AA961B09134D86D000BC562D /* MyException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA961B08134D86D000BC562D /* MyException.cpp */; };
+		AA961B0B134D897B00BC562D /* Developer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA961B0A134D897B00BC562D /* Developer.h */; };
+		AA961B0D134D8A1E00BC562D /* Developer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA961B0C134D8A1E00BC562D /* Developer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,15 +36,21 @@
 /* Begin PBXFileReference section */
 		AA961AD9134D82DB00BC562D /* libTestCPPLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestCPPLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA961ADC134D82DB00BC562D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AA961AE0134D82DB00BC562D /* TestCPPLib-Prefix.pch */ = {isa = PBXFileReference; path = "TestCPPLib-Prefix.pch"; sourceTree = "<group>"; };
+		AA961AE0134D82DB00BC562D /* TestCPPLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCPPLib-Prefix.pch"; sourceTree = "<group>"; };
 		AA961AE6134D82DB00BC562D /* TestCPPLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCPPLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA961AE7134D82DB00BC562D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA961AEA134D82DB00BC562D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AA961AF1134D82DB00BC562D /* TestCPPLibTests-Info.plist */ = {isa = PBXFileReference; path = "TestCPPLibTests-Info.plist"; sourceTree = "<group>"; };
+		AA961AF1134D82DB00BC562D /* TestCPPLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestCPPLibTests-Info.plist"; sourceTree = "<group>"; };
 		AA961AF3134D82DB00BC562D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA961AF5134D82DB00BC562D /* TestCPPLibTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestCPPLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		AA961AF5134D82DB00BC562D /* TestCPPLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestCPPLibTests-Prefix.pch"; sourceTree = "<group>"; };
 		AA961AF6134D82DC00BC562D /* TestCPPLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCPPLibTests.h; sourceTree = "<group>"; };
 		AA961AF8134D82DC00BC562D /* TestCPPLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCPPLibTests.m; sourceTree = "<group>"; };
+		AA961B02134D82FC00BC562D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA961B04134D830900BC562D /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		AA961B06134D86A400BC562D /* MyException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyException.h; sourceTree = "<group>"; };
+		AA961B08134D86D000BC562D /* MyException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyException.cpp; sourceTree = "<group>"; };
+		AA961B0A134D897B00BC562D /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		AA961B0C134D8A1E00BC562D /* Developer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Developer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				AA961ADF134D82DB00BC562D /* Supporting Files */,
+				AA961B02134D82FC00BC562D /* Person.h */,
+				AA961B0A134D897B00BC562D /* Developer.h */,
+				AA961B04134D830900BC562D /* Person.cpp */,
+				AA961B06134D86A400BC562D /* MyException.h */,
+				AA961B08134D86D000BC562D /* MyException.cpp */,
+				AA961B0C134D8A1E00BC562D /* Developer.cpp */,
 			);
 			path = TestCPPLib;
 			sourceTree = "<group>";
@@ -136,6 +154,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA961B03134D82FC00BC562D /* Person.h in Headers */,
+				AA961B07134D86A400BC562D /* MyException.h in Headers */,
+				AA961B0B134D897B00BC562D /* Developer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA961B05134D830900BC562D /* Person.cpp in Sources */,
+				AA961B09134D86D000BC562D /* MyException.cpp in Sources */,
+				AA961B0D134D8A1E00BC562D /* Developer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
