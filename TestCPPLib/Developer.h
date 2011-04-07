@@ -1,27 +1,23 @@
 //
-//  Person.h
+//  Developer.h
 //  TestCPPLib
 //
 //  Created by lesstif on 11. 4. 7..
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
-#include <string>
+#include "Person.h"
 
-class Person {
+class Developer : public Person
+{
 public:
+    Developer(const char* name);
     
-    Person();
-    
-    Person(const char* name);
-    virtual ~Person();
+    virtual ~Developer();
     
     virtual void whoAmI();
     
     virtual void throwException();
-    
-    std::string& getName() { return name_;}
-    
-protected:
-    std::string name_;
+        
+private:
     
 };

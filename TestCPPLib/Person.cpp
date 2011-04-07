@@ -31,6 +31,6 @@ void Person::whoAmI()
 
 void Person::throwException()
 {
-    throw PersonException();
+    throw new PersonException();
 }
 
