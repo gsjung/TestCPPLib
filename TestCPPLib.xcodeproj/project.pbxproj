@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA961ADD134D82DB00BC562D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA961ADC134D82DB00BC562D /* Foundation.framework */; };
+		AA961AE8134D82DB00BC562D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA961AE7134D82DB00BC562D /* UIKit.framework */; };
+		AA961AE9134D82DB00BC562D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA961ADC134D82DB00BC562D /* Foundation.framework */; };
+		AA961AEB134D82DB00BC562D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA961AEA134D82DB00BC562D /* CoreGraphics.framework */; };
+		AA961AEE134D82DB00BC562D /* libTestCPPLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA961AD9134D82DB00BC562D /* libTestCPPLib.a */; };
+		AA961AF4134D82DB00BC562D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA961AF2134D82DB00BC562D /* InfoPlist.strings */; };
+		AA961AF7134D82DC00BC562D /* TestCPPLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AA961AF6134D82DC00BC562D /* TestCPPLibTests.h */; };
+		AA961AF9134D82DC00BC562D /* TestCPPLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA961AF8134D82DC00BC562D /* TestCPPLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA961AEC134D82DB00BC562D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA961AD0134D82DB00BC562D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA961AD8134D82DB00BC562D;
+			remoteInfo = TestCPPLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA961AD9134D82DB00BC562D /* libTestCPPLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestCPPLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA961ADC134D82DB00BC562D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA961AE0134D82DB00BC562D /* TestCPPLib-Prefix.pch */ = {isa = PBXFileReference; path = "TestCPPLib-Prefix.pch"; sourceTree = "<group>"; };
+		AA961AE6134D82DB00BC562D /* TestCPPLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCPPLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA961AE7134D82DB00BC562D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA961AEA134D82DB00BC562D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA961AF1134D82DB00BC562D /* TestCPPLibTests-Info.plist */ = {isa = PBXFileReference; path = "TestCPPLibTests-Info.plist"; sourceTree = "<group>"; };
+		AA961AF3134D82DB00BC562D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA961AF5134D82DB00BC562D /* TestCPPLibTests-Prefix.pch */ = {isa = PBXFileReference; path = "TestCPPLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		AA961AF6134D82DC00BC562D /* TestCPPLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCPPLibTests.h; sourceTree = "<group>"; };
+		AA961AF8134D82DC00BC562D /* TestCPPLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCPPLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA961AD6134D82DB00BC562D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA961ADD134D82DB00BC562D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA961AE2134D82DB00BC562D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA961AE8134D82DB00BC562D /* UIKit.framework in Frameworks */,
+				AA961AE9134D82DB00BC562D /* Foundation.framework in Frameworks */,
+				AA961AEB134D82DB00BC562D /* CoreGraphics.framework in Frameworks */,
+				AA961AEE134D82DB00BC562D /* libTestCPPLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA961ACE134D82DB00BC562D = {
+			isa = PBXGroup;
+			children = (
+				AA961ADE134D82DB00BC562D /* TestCPPLib */,
+				AA961AEF134D82DB00BC562D /* TestCPPLibTests */,
+				AA961ADB134D82DB00BC562D /* Frameworks */,
+				AA961ADA134D82DB00BC562D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA961ADA134D82DB00BC562D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA961AD9134D82DB00BC562D /* libTestCPPLib.a */,
+				AA961AE6134D82DB00BC562D /* TestCPPLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA961ADB134D82DB00BC562D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA961ADC134D82DB00BC562D /* Foundation.framework */,
+				AA961AE7134D82DB00BC562D /* UIKit.framework */,
+				AA961AEA134D82DB00BC562D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA961ADE134D82DB00BC562D /* TestCPPLib */ = {
+			isa = PBXGroup;
+			children = (
+				AA961ADF134D82DB00BC562D /* Supporting Files */,
+			);
+			path = TestCPPLib;
+			sourceTree = "<group>";
+		};
+		AA961ADF134D82DB00BC562D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA961AE0134D82DB00BC562D /* TestCPPLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA961AEF134D82DB00BC562D /* TestCPPLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA961AF6134D82DC00BC562D /* TestCPPLibTests.h */,
+				AA961AF8134D82DC00BC562D /* TestCPPLibTests.m */,
+				AA961AF0134D82DB00BC562D /* Supporting Files */,
+			);
+			path = TestCPPLibTests;
+			sourceTree = "<group>";
+		};
+		AA961AF0134D82DB00BC562D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA961AF1134D82DB00BC562D /* TestCPPLibTests-Info.plist */,
+				AA961AF2134D82DB00BC562D /* InfoPlist.strings */,
+				AA961AF5134D82DB00BC562D /* TestCPPLibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA961AD7134D82DB00BC562D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA961AD8134D82DB00BC562D /* TestCPPLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA961AFC134D82DC00BC562D /* Build configuration list for PBXNativeTarget "TestCPPLib" */;
+			buildPhases = (
+				AA961AD5134D82DB00BC562D /* Sources */,
+				AA961AD6134D82DB00BC562D /* Frameworks */,
+				AA961AD7134D82DB00BC562D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCPPLib;
+			productName = TestCPPLib;
+			productReference = AA961AD9134D82DB00BC562D /* libTestCPPLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA961AE5134D82DB00BC562D /* TestCPPLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA961AFF134D82DC00BC562D /* Build configuration list for PBXNativeTarget "TestCPPLibTests" */;
+			buildPhases = (
+				AA961AE1134D82DB00BC562D /* Sources */,
+				AA961AE2134D82DB00BC562D /* Frameworks */,
+				AA961AE3134D82DB00BC562D /* Resources */,
+				AA961AE4134D82DB00BC562D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA961AED134D82DB00BC562D /* PBXTargetDependency */,
+			);
+			name = TestCPPLibTests;
+			productName = TestCPPLibTests;
+			productReference = AA961AE6134D82DB00BC562D /* TestCPPLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA961AD0134D82DB00BC562D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AA961AD3134D82DB00BC562D /* Build configuration list for PBXProject "TestCPPLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA961ACE134D82DB00BC562D;
+			productRefGroup = AA961ADA134D82DB00BC562D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA961AD8134D82DB00BC562D /* TestCPPLib */,
+				AA961AE5134D82DB00BC562D /* TestCPPLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA961AE3134D82DB00BC562D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA961AF4134D82DB00BC562D /* InfoPlist.strings in Resources */,
+				AA961AF7134D82DC00BC562D /* TestCPPLibTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA961AE4134D82DB00BC562D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA961AD5134D82DB00BC562D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA961AE1134D82DB00BC562D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA961AF9134D82DC00BC562D /* TestCPPLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA961AED134D82DB00BC562D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA961AD8134D82DB00BC562D /* TestCPPLib */;
+			targetProxy = AA961AEC134D82DB00BC562D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA961AF2134D82DB00BC562D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA961AF3134D82DB00BC562D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA961AFA134D82DC00BC562D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA961AFB134D82DC00BC562D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AA961AFD134D82DC00BC562D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TestCPPLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestCPPLib/TestCPPLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA961AFE134D82DC00BC562D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TestCPPLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestCPPLib/TestCPPLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA961B00134D82DC00BC562D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestCPPLibTests/TestCPPLibTests-Prefix.pch";
+				INFOPLIST_FILE = "TestCPPLibTests/TestCPPLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA961B01134D82DC00BC562D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestCPPLibTests/TestCPPLibTests-Prefix.pch";
+				INFOPLIST_FILE = "TestCPPLibTests/TestCPPLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA961AD3134D82DB00BC562D /* Build configuration list for PBXProject "TestCPPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA961AFA134D82DC00BC562D /* Debug */,
+				AA961AFB134D82DC00BC562D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA961AFC134D82DC00BC562D /* Build configuration list for PBXNativeTarget "TestCPPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA961AFD134D82DC00BC562D /* Debug */,
+				AA961AFE134D82DC00BC562D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA961AFF134D82DC00BC562D /* Build configuration list for PBXNativeTarget "TestCPPLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA961B00134D82DC00BC562D /* Debug */,
+				AA961B01134D82DC00BC562D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA961AD0134D82DB00BC562D /* Project object */;
+}
